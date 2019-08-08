@@ -9,7 +9,7 @@
 
     <script src="https://kit.fontawesome.com/12027d7eed.js"></script>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -38,8 +38,8 @@
         </span>
       </div>
     </header>
-    <main class="chat">
-      <ul class="chat__mesaages">
+    <main class="chat-screen">
+      <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019 </span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="g-avatar message__avatar" />
@@ -49,9 +49,8 @@
               Contrats I love you!
             </div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
             <div class="message__bubble">
@@ -62,17 +61,17 @@
       </ul>
     </main>
     <div class="chat__write">
-      <div class="chat__write-colum">
+      <div class="chat__write-column">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat__write-colum">
+      <div class="chat__write-column">
         <input
           type="text"
           placeholder="Send message"
           class="chat__write-input"
         />
       </div>
-      <div class="chat__write-colum"></div>
+      <div class="chat__write-column"></div>
       <span class="chat__write-icon"> <i class="far fa-smile-wink"></i></span
       ><span class="chat__write-icon">
         <i class="fas fa-microphone"></i>
